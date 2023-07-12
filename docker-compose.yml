@@ -27,8 +27,8 @@ services:
   pgadmin:
     image: dpage/pgadmin4
     environment:
-      - PGADMIN_DEFAULT_EMAIL=admin@presyst.mx
-      - PGADMIN_DEFAULT_PASSWORD=admin
+      - PGADMIN_DEFAULT_EMAIL=changeme@admin.mx
+      - PGADMIN_DEFAULT_PASSWORD=changeme
     ports:
       - "5050:80"
     depends_on:
