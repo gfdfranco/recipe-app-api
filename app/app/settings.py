@@ -65,7 +65,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'changeme',
+    os.environ.get('CORS_ORIGIN_WHITELIST'),
 ]
 
 ROOT_URLCONF = 'app.urls'
